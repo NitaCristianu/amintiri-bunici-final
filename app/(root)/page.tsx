@@ -39,7 +39,7 @@ export default async function Home({
         <section className="section_container">
           <p className="text-30-semibold !text-center">
             {query ? `Rezultatele căutării pentru "${query}"` : "Toate amintirile"}
-          </p>
+          </p> 
 
           <ul className="mt-7 card_grid">
             {posts?.length > 0 ? (

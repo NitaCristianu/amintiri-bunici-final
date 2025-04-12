@@ -19,7 +19,7 @@ export default async function Home({
   return (
     <>
       <section className="pink_container overflow-hidden ">
-        <img width={'100%'} height={'100%'}  className="-z-5 sticky top-[100px] md:scale-[112%] scale-[250%]" src="/peisaj.jpg" alt="peisaj romanesc" />
+        <img width={'100%'} height={'100%'}  className="-z-5 sticky top-[100px] md:scale-[120%] scale-[300%]" src="/peisaj.jpg" alt="peisaj romanesc" />
         <div className="absolute">
           {/* <h1 className="heading mt-9">
             amintiri-bunici

@@ -73,8 +73,8 @@ const DeletableStartupCard = ({ post }: { post: StartupTypeCard }) => {
                 <Link href={`/?query=${category?.toLowerCase()}`}>
                     <p className="text-16-medium">{category}</p>
                 </Link>
-                <Button className="startup-card_btn" asChild>
-                    <Link href={`/startup/${_id}`}>Details</Link>
+                <Button className="startup-card_btn uppercase" asChild>
+                    <Link href={`/startup/${_id}`}>Detalii</Link>
                 </Button>
                 <form
                     action={async () => {
